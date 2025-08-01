@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+
+venv/
+
+# Ignore dataset folders or files
+dataset/
+*.csv
+*.xlsx
+*.zip
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Python virtual environment
+*.egg-info/
+*.egg
+*.log
+
+# Build and distribution folders
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Database or data files
+*.sqlite3
+*.db
+*.h5
+
+# Images or outputs
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore model files
+model/
+*.h5
+*.pkl
+*.joblib
